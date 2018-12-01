@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Crystal Collector Game</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game-obj.js"></script>
+</head>
+<body>
+  <div class ="container">
+    <div class = "row">
+        <div class = "jumbotron col-12">
+            <h1 class = display-4>Crystal Collector</h1>
+            <p class="lead">Displayed below is a number to guess. Each crystal has been given a hidden random value. Click on any combination of crystals to exaclty match the number-to-guess and you WIN. Beware, however; this is Price is Right rules. If you go over you LOSE!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="jumbotron col-6">
+            <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+            <h1>Current Score: <span id="current-total"></span></h1>
+        </div>
+        <div class="jumbotron col-6">
+            <h2>Number of WINS: <span id="count-wins"></span></h2>
+            <h2>Number of LOSSES: <span id="count-losses"></span></h2>
+            <h2>Last Game Result: <span id="game-result"></span></h2>
+        </div>
+    </div> 
+      
+    <div id="crystals">
+    </div> 
+
+</div>
+</body>
+</html>
